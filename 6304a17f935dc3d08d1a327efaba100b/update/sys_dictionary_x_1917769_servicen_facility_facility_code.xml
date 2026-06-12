@@ -8,7 +8,7 @@
         <choice></choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Facility</column_label>
+        <column_label>Facility Code</column_label>
         <comments/>
         <create_roles/>
         <default_value></default_value>
@@ -19,20 +19,20 @@
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_default_value/>
-        <element>facility</element>
+        <element>facility_code</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
-        <mandatory>true</mandatory>
-        <max_length>32</max_length>
-        <name>x_1917769_servicen_visitor_request</name>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_1917769_servicen_facility</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference>x_1917769_servicen_facility</reference>
+        <reference></reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -45,13 +45,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-12 17:00:00</sys_created_on>
-        <sys_id>fd0c7643d3980395976bc30df0cd81ac</sys_id>
+        <sys_id>d4f8e1ff935dc3d08d1a327efaba10fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Facility</sys_name>
+        <sys_name>Facility Code</sys_name>
         <sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope>
-        <sys_update_name>sys_dictionary_x_1917769_servicen_visitor_request_facility</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1917769_servicen_facility_facility_code</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-06-12 17:00:00</sys_updated_on>
         <table_reference>false</table_reference>

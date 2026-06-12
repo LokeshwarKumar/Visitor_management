@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_documentation">
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>facility_code</element>
+        <help/>
+        <hint/>
+        <label>Facility Code</label>
+        <language>en</language>
+        <name>x_1917769_servicen_facility</name>
+        <plural>Facility Codes</plural>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-12 17:00:00</sys_created_on>
+        <sys_id>a3fae1ff935dc3d08d1a327efaba1106</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Facility Code</sys_name>
+        <sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope>
+        <sys_update_name>sys_documentation_x_1917769_servicen_facility_facility_code_en</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-12 17:00:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
