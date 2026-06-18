@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Manages facilities available for visitors.</description>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>/pLNd5mv7DrJBf32psKsa9c1VtpNJK/ZP2Uem/5abC0=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1917769_servicen.facility_admin</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>facility_admin</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-17 12:23:24</sys_created_on>
+        <sys_id>5b4a62dd93a5cfd08d1a327efaba10d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1917769_servicen.facility_admin</sys_name>
+        <sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope>
+        <sys_update_name>sys_user_role_5b4a62dd93a5cfd08d1a327efaba10d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-17 12:23:24</sys_updated_on>
+    </sys_user_role>
+</record_update>

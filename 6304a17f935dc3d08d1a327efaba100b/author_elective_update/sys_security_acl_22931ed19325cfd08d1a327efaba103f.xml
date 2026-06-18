@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description>Default access control on x_1917769_servicen_employee</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1917769_servicen_employee</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-17 10:43:45</sys_created_on>
+        <sys_id>22931ed19325cfd08d1a327efaba103f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1917769_servicen_employee</sys_name>
+        <sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope>
+        <sys_update_name>sys_security_acl_22931ed19325cfd08d1a327efaba103f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-17 10:43:45</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</application>
+        <file_path/>
+        <instance_id>28b4b7f2ffdceadcc80bf8e4fc4fd924</instance_id>
+        <instance_name>dev302888</instance_name>
+        <name>sys_security_acl_22931ed19325cfd08d1a327efaba103f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on x_1917769_servicen_employee</description><local_or_existing>Local</local_or_existing><name>x_1917769_servicen_employee</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-17 10:43:45</sys_created_on><sys_id>22931ed19325cfd08d1a327efaba103f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1917769_servicen_employee</sys_name><sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package><sys_policy/><sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope><sys_update_name>sys_security_acl_22931ed19325cfd08d1a327efaba103f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-17 10:43:45</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-580343098</payload_hash>
+        <record_name>x_1917769_servicen_employee</record_name>
+        <reverted_from/>
+        <source>c5d9e5ff935dc3d08d1a327efaba10dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-17 10:43:45</sys_created_on>
+        <sys_id>22931ed19325cfd08d1a327efaba1044</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ed52e0e500000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-17 10:43:45</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>2e931ed16d25cfd082777f5ea1ee0f42</update_guid>
+        <update_guid_history>2e931ed16d25cfd082777f5ea1ee0f42:-580343098</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-17 13:07:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>16c06f574705492884036c8cca9e12c1</sys_id>
+        <sys_metadata>22931ed19325cfd08d1a327efaba103f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1917769_servicen_employee</sys_name>
+        <sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package>
+        <sys_parent display_value="x_1917769_servicen_employee">e6931ed19325cfd08d1a327efaba104b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope>
+        <sys_scope_delete display_value="">802aa00298c24e38ac1f68843c206440</sys_scope_delete>
+        <sys_update_name>sys_security_acl_22931ed19325cfd08d1a327efaba103f</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_22931ed19325cfd08d1a327efaba103f">22931ed19325cfd08d1a327efaba1044</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-17 13:07:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

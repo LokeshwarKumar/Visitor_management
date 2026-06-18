@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c3130a3b935107d08d1a327efaba1079" label="Visitor_pass" max_length="40" name="x_1917769_servicen_visitor_pass" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Visitor Name" max_length="40" name="visitor_name" type="string"/>
+        <element label="QR Code Value" max_length="40" name="qr_code_value" type="string"/>
+        <element label="Check-In Time" max_length="40" name="check_in_time" type="glide_date_time"/>
+        <element label="Facility" max_length="32" name="facility" reference="x_1917769_servicen_facility" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" sequence="2" value="cancelled"/>
+                <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
+                <element inactive_on_update="false" label="Used" sequence="3" value="used"/>
+                <element inactive_on_update="false" label="Expired" sequence="1" value="expired"/>
+            </choice>
+        </element>
+        <element label="Pass Number" max_length="40" name="pass_number" type="integer"/>
+        <element label="Valid To" max_length="40" name="valid_to" type="glide_date_time"/>
+        <element label="Visitor Request" max_length="32" name="visitor_request" reference="x_1917769_servicen_visitor_request" type="reference"/>
+        <element label="Valid From" max_length="40" name="valid_from" type="glide_date_time"/>
+        <element label="Check-Out Time" max_length="40" name="check_out_time" type="glide_date_time"/>
+        <index name="index">
+            <element name="facility"/>
+        </index>
+        <index name="index2">
+            <element name="visitor_request"/>
+        </index>
+    </element>
+</database>
