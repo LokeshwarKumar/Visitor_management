@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Visitor">60f49e959325cfd08d1a327efaba103f</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Visitors</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1917769_servicen_visitor</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-17 10:49:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e0f49e959325cfd08d1a327efaba1044</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visitors</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope>
+        <sys_update_name>sys_app_module_e0f49e959325cfd08d1a327efaba1044</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-17 10:49:38</sys_updated_on>
+        <timeline_page/>
+        <title>Visitors</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</application>
+        <file_path/>
+        <instance_id>28b4b7f2ffdceadcc80bf8e4fc4fd924</instance_id>
+        <instance_name>dev302888</instance_name>
+        <name>sys_app_module_e0f49e959325cfd08d1a327efaba1044</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Visitor">60f49e959325cfd08d1a327efaba103f</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Visitors</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1917769_servicen_visitor</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-17 10:49:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e0f49e959325cfd08d1a327efaba1044</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visitors</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope>
+        <sys_update_name>sys_app_module_e0f49e959325cfd08d1a327efaba1044</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-17 10:49:38</sys_updated_on>
+        <timeline_page/>
+        <title>Visitors</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>1560634151</payload_hash>
+        <record_name>Visitors</record_name>
+        <reverted_from/>
+        <source>3881df61936943148d1a327efaba1063</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-18 09:52:59</sys_created_on>
+        <sys_id>649157a1936943148d1a327efaba1079</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19eda25eef20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-18 09:52:59</sys_updated_on>
+        <type>Module</type>
+        <update_guid>ac9157a1046943149da0236400d1ff78</update_guid>
+        <update_guid_history>ac9157a1046943149da0236400d1ff78:0,12ab87a51329431494c3262ba56f0d0c:229531145,81abc3a58e2943148b6c0f419d417894:0,60f49e95b425cfd0024129f5b9138d47:1840345927</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Visitors">8af5c22f93e9cf148d1a327efaba1028</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-24 09:30:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0fbe1715b4b24a68ae8bceda687aea40</sys_id>
+        <sys_metadata>e0f49e959325cfd08d1a327efaba1044</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visitors</sys_name>
+        <sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope>
+        <sys_scope_delete display_value="">802aa00298c24e38ac1f68843c206440</sys_scope_delete>
+        <sys_update_name>sys_app_module_e0f49e959325cfd08d1a327efaba1044</sys_update_name>
+        <sys_update_version display_value="sys_app_module_e0f49e959325cfd08d1a327efaba1044">649157a1936943148d1a327efaba1079</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-24 09:30:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

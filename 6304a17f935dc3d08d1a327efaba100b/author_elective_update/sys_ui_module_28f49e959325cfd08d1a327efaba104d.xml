@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Visitor">64f49e959325cfd08d1a327efaba1049</application>
+        <filter/>
+        <name>Visitors</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles/>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-17 10:49:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>28f49e959325cfd08d1a327efaba104d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visitors</sys_name>
+        <sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope>
+        <sys_update_name>sys_ui_module_28f49e959325cfd08d1a327efaba104d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-17 10:49:38</sys_updated_on>
+        <table>x_1917769_servicen_visitor</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</application>
+        <file_path/>
+        <instance_id>28b4b7f2ffdceadcc80bf8e4fc4fd924</instance_id>
+        <instance_name>dev302888</instance_name>
+        <name>sys_ui_module_28f49e959325cfd08d1a327efaba104d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Visitor">64f49e959325cfd08d1a327efaba1049</application>
+        <filter/>
+        <name>Visitors</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles/>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-17 10:49:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>28f49e959325cfd08d1a327efaba104d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visitors</sys_name>
+        <sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope>
+        <sys_update_name>sys_ui_module_28f49e959325cfd08d1a327efaba104d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-17 10:49:38</sys_updated_on>
+        <table>x_1917769_servicen_visitor</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>]]></payload>
+        <payload_hash>1786751380</payload_hash>
+        <record_name>Visitors</record_name>
+        <reverted_from/>
+        <source>3881df61936943148d1a327efaba1063</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-18 09:53:00</sys_created_on>
+        <sys_id>b89197a1936943148d1a327efaba100a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19eda25f40e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-18 09:53:00</sys_updated_on>
+        <type>Module</type>
+        <update_guid>f09197a15a6943141a5c9a265933d70a</update_guid>
+        <update_guid_history>f09197a15a6943141a5c9a265933d70a:0,10ab83a5d829431466dc0388d6de961f:285966798,acf49e951025cfd038cbd94d4c64c64f:1437204184</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-24 09:30:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>6c91ce59f11541808f30fd37d52c4000</sys_id>
+        <sys_metadata>28f49e959325cfd08d1a327efaba104d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Visitors</sys_name>
+        <sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope>
+        <sys_scope_delete display_value="">802aa00298c24e38ac1f68843c206440</sys_scope_delete>
+        <sys_update_name>sys_ui_module_28f49e959325cfd08d1a327efaba104d</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_28f49e959325cfd08d1a327efaba104d">b89197a1936943148d1a327efaba100a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-24 09:30:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -7,11 +7,11 @@
         <condition/>
         <controlled_by_refs/>
         <decision_type>allow</decision_type>
-        <description>Allow read for records in x_1917769_servicen_visitor_request, if the ACL script returns true.</description>
+        <description>Allow read for records in x_1917769_servicen_facility, if the ACL script returns true.</description>
         <local_or_existing>Local</local_or_existing>
-        <name>x_1917769_servicen_visitor_request</name>
+        <name>x_1917769_servicen_facility</name>
         <operation display_value="read">read</operation>
-        <script><![CDATA[(function executeRule(current, previous) {
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
     // Admin full access
     if (gs.hasRole('x_1917769_servicen.admin')) {
@@ -20,26 +20,28 @@
 
     var userID = gs.getUserID();
 
-    // Employee → only own requests
-    if (gs.hasRole('x_1917769_servicen.employee_user')) {
-        return current.requested_by.user.toString() == userID;
+    // Get employee record of logged-in user
+    var emp = new GlideRecord('u_employee');
+    emp.addQuery('user', userID);
+    emp.query();
+
+    if (!emp.next()) {
+        return false;
     }
 
-    // Facility admin → requests assigned to them
-    if (gs.hasRole('x_1917769_servicen.facility_admin')) {
-        return current.facility_admin.toString() == userID;
-    }
-
-    // Branch manager → same branch requests
+    // Branch Manager → same branch
     if (gs.hasRole('x_1917769_servicen.branch_manager')) {
+        return current.branch == emp.branch;
+    }
 
-        var emp = new GlideRecord('u_employee');
-        emp.addQuery('user', userID);
-        emp.query();
+    // Facility Admin → only assigned facilities
+    if (gs.hasRole('x_1917769_servicen.facility_admin')) {
+        return current.facility_admin == userID;
+    }
 
-        if (emp.next()) {
-            return current.branch.toString() == emp.branch.toString();
-        }
+    // Employee → same branch facilities only
+    if (gs.hasRole('x_1917769_servicen.employee_user')) {
+        return current.branch == emp.branch && current.active == true;
     }
 
     return false;
@@ -48,16 +50,16 @@
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-06-17 12:53:29</sys_created_on>
-        <sys_id>a3a0fad993e5cfd08d1a327efaba101f</sys_id>
+        <sys_created_on>2026-06-24 10:02:47</sys_created_on>
+        <sys_id>51ac8a2b932dcf148d1a327efaba1062</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>x_1917769_servicen_visitor_request</sys_name>
+        <sys_name>x_1917769_servicen_facility</sys_name>
         <sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope>
-        <sys_update_name>sys_security_acl_a3a0fad993e5cfd08d1a327efaba101f</sys_update_name>
+        <sys_update_name>sys_security_acl_51ac8a2b932dcf148d1a327efaba1062</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-24 10:18:38</sys_updated_on>
+        <sys_updated_on>2026-06-24 10:03:42</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

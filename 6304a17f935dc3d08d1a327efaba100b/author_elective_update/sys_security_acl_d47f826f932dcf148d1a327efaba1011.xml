@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1917769_servicen_facility</name>
+        <operation display_value="create">create</operation>
+        <script><![CDATA[(function executeRule(current, previous) {
+
+    return gs.hasRole('x_1917769_servicen.admin');
+
+})(current, previous);]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-24 10:12:38</sys_created_on>
+        <sys_id>d47f826f932dcf148d1a327efaba1011</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1917769_servicen_facility</sys_name>
+        <sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope>
+        <sys_update_name>sys_security_acl_d47f826f932dcf148d1a327efaba1011</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-24 10:12:38</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</application>
+        <file_path/>
+        <instance_id>28b4b7f2ffdceadcc80bf8e4fc4fd924</instance_id>
+        <instance_name>dev302888</instance_name>
+        <name>sys_security_acl_d47f826f932dcf148d1a327efaba1011</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;applies_to/&gt;&lt;condition/&gt;&lt;controlled_by_refs/&gt;&lt;decision_type&gt;allow&lt;/decision_type&gt;&lt;description/&gt;&lt;local_or_existing&gt;Local&lt;/local_or_existing&gt;&lt;name&gt;x_1917769_servicen_facility&lt;/name&gt;&lt;operation display_value="create"&gt;create&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous) {
+
+    return gs.hasRole('x_1917769_servicen.admin');
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-24 10:12:38&lt;/sys_created_on&gt;&lt;sys_id&gt;d47f826f932dcf148d1a327efaba1011&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1917769_servicen_facility&lt;/sys_name&gt;&lt;sys_package display_value="Visitor_management" source="x_1917769_servicen"&gt;6304a17f935dc3d08d1a327efaba100b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Visitor_management"&gt;6304a17f935dc3d08d1a327efaba100b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_d47f826f932dcf148d1a327efaba1011&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-24 10:12:38&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>959720728</payload_hash>
+        <record_name>x_1917769_servicen_facility</record_name>
+        <reverted_from/>
+        <source>c5d9e5ff935dc3d08d1a327efaba10dd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-24 10:12:38</sys_created_on>
+        <sys_id>369fc2ef932dcf148d1a327efaba100d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ef91e13b40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-24 10:12:38</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>329fc2ef882dcf143865df09d884ed0c</update_guid>
+        <update_guid_history>329fc2ef882dcf143865df09d884ed0c:959720728</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-24 10:15:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>1fd4d4dc8e1b4c54840c474a12070861</sys_id>
+        <sys_metadata>d47f826f932dcf148d1a327efaba1011</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1917769_servicen_facility</sys_name>
+        <sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package>
+        <sys_parent display_value="x_1917769_servicen_facility">b2f8e1ff935dc3d08d1a327efaba10fb</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope>
+        <sys_scope_delete display_value="">802aa00298c24e38ac1f68843c206440</sys_scope_delete>
+        <sys_update_name>sys_security_acl_d47f826f932dcf148d1a327efaba1011</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_d47f826f932dcf148d1a327efaba1011">369fc2ef932dcf148d1a327efaba100d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-24 10:15:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

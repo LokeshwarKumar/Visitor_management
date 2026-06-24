@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" db_object_id="a1f8e1ff935dc3d08d1a327efaba10fa" label="Facility" max_length="40" name="x_1917769_servicen_facility" type="collection">
+        <element label="Branch" max_length="30" name="branch" type="string"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="State" max_length="100" name="state" type="string"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Country" max_length="100" name="country" type="string"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Facility Name" mandatory="true" max_length="100" name="facility_name" type="string"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Facility Manager" max_length="32" name="facility_manager" reference="sys_user" type="reference"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Facility Code" max_length="40" name="facility_code" type="string"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Address" max_length="255" name="address" type="string"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="City" max_length="100" name="city" type="string"/>
+        <index name="index">
+            <element name="facility_manager"/>
+        </index>
+    </element>
+</database>

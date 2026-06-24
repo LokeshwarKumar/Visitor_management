@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>jy2l6lD5w9p/hcyKAMGSBlB7oWCiYL/Tli6Xc9q/PfY=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1917769_servicen.visitor</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>visitor</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-12 17:40:57</sys_created_on>
+        <sys_id>4123ca3b935107d08d1a327efaba1025</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1917769_servicen.visitor</sys_name>
+        <sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope>
+        <sys_update_name>sys_user_role_4123ca3b935107d08d1a327efaba1025</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-12 17:40:57</sys_updated_on>
+    </sys_user_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</application>
+        <file_path/>
+        <instance_id>28b4b7f2ffdceadcc80bf8e4fc4fd924</instance_id>
+        <instance_name>dev302888</instance_name>
+        <name>sys_user_role_4123ca3b935107d08d1a327efaba1025</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>jy2l6lD5w9p/hcyKAMGSBlB7oWCiYL/Tli6Xc9q/PfY=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1917769_servicen.visitor</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>visitor</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-12 17:40:57</sys_created_on>
+        <sys_id>4123ca3b935107d08d1a327efaba1025</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1917769_servicen.visitor</sys_name>
+        <sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope>
+        <sys_update_name>sys_user_role_4123ca3b935107d08d1a327efaba1025</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-12 17:40:57</sys_updated_on>
+    </sys_user_role>
+</record_update>]]></payload>
+        <payload_hash>-1216797144</payload_hash>
+        <record_name>x_1917769_servicen.visitor</record_name>
+        <reverted_from/>
+        <source>3881df61936943148d1a327efaba1063</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-18 09:53:01</sys_created_on>
+        <sys_id>c99197a1936943148d1a327efaba1037</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19eda25f5ee0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-18 09:53:01</sys_updated_on>
+        <type>Role</type>
+        <update_guid>059197a13f694314abe4a54d4a5e7937</update_guid>
+        <update_guid_history>059197a13f694314abe4a54d4a5e7937:0,b4ab83a5992943144fd6c68b0f7cdcf3:-869176966,c123ca3b095107d07f46666cc590bc30:751170662</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1917769_servicen.visitor">7d1906a3932dcf148d1a327efaba1007</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-24 09:44:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>110c0030944a44d4bcf71f036d7027e9</sys_id>
+        <sys_metadata>4123ca3b935107d08d1a327efaba1025</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1917769_servicen.visitor</sys_name>
+        <sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope>
+        <sys_scope_delete display_value="">802aa00298c24e38ac1f68843c206440</sys_scope_delete>
+        <sys_update_name>sys_user_role_4123ca3b935107d08d1a327efaba1025</sys_update_name>
+        <sys_update_version display_value="sys_user_role_4123ca3b935107d08d1a327efaba1025">c99197a1936943148d1a327efaba1037</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-24 09:44:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

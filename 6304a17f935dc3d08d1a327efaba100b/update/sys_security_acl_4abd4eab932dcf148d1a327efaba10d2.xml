@@ -7,35 +7,18 @@
         <condition/>
         <controlled_by_refs/>
         <decision_type>allow</decision_type>
-        <description>Allow read for records in x_1917769_servicen_visitor_pass, if the ACL script returns true.</description>
+        <description/>
         <local_or_existing>Local</local_or_existing>
-        <name>x_1917769_servicen_visitor_pass</name>
-        <operation display_value="read">read</operation>
+        <name>x_1917769_servicen_facility</name>
+        <operation display_value="write">write</operation>
         <script><![CDATA[(function executeRule(current, previous) {
 
-    // Admin full access
+    // Admin override
     if (gs.hasRole('x_1917769_servicen.admin')) {
         return true;
     }
 
-    // Security always allowed
-    if (gs.hasRole('x_1917769_servicen.security')) {
-        return true;
-    }
-
-    // Branch manager → only same branch passes
-    if (gs.hasRole('x_1917769_servicen.branch_manager')) {
-
-        var emp = new GlideRecord('u_employee');
-        emp.addQuery('user', gs.getUserID());
-        emp.query();
-
-        if (emp.next()) {
-            return current.branch == emp.branch;
-        }
-    }
-
-    // Facility admin → only related facility passes
+    // Only facility admin assigned to this record
     if (gs.hasRole('x_1917769_servicen.facility_admin')) {
         return current.facility_admin == gs.getUserID();
     }
@@ -46,16 +29,16 @@
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-06-12 17:40:57</sys_created_on>
-        <sys_id>c523ca3b935107d08d1a327efaba1032</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_1917769_servicen_visitor_pass</sys_name>
+        <sys_created_on>2026-06-24 10:05:27</sys_created_on>
+        <sys_id>4abd4eab932dcf148d1a327efaba10d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1917769_servicen_facility</sys_name>
         <sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope>
-        <sys_update_name>sys_security_acl_c523ca3b935107d08d1a327efaba1032</sys_update_name>
+        <sys_update_name>sys_security_acl_4abd4eab932dcf148d1a327efaba10d2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-24 10:10:46</sys_updated_on>
+        <sys_updated_on>2026-06-24 10:05:27</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>
