@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="58869267936dcf148d1a327efaba10e1" label="Branch" max_length="40" name="x_1917769_servicen_branch" type="collection">
+        <element label="Branch Manager" max_length="32" name="branch_manager" reference="x_1917769_servicen_employee" type="reference"/>
+        <element label="Branch ID" max_length="40" name="branch_id" type="string"/>
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="Contact Number" max_length="40" name="contact_number" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Branch Name" max_length="40" name="branch_name" type="string"/>
+        <element label="Code" max_length="40" name="code" type="string"/>
+        <index name="index">
+            <element name="branch_manager"/>
+        </index>
+    </element>
+</database>

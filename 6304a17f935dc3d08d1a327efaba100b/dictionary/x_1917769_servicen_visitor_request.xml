@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" db_object_id="42f8e1ff935dc3d08d1a327efaba10ab" label="Visitor Request" max_length="40" name="x_1917769_servicen_visitor_request" type="collection">
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" choice="1" default="draft" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="3" value="approved"/>
+                <element inactive_on_update="false" label="Expired" sequence="7" value="expired"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Submitted" sequence="1" value="submitted"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="5" value="cancelled"/>
+                <element inactive_on_update="false" label="Completed" sequence="6" value="completed"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="2" value="pending_approval"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
+            </choice>
+        </element>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Purpose of Visit" mandatory="true" max_length="4000" name="purpose" type="string"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Visit Start Time" max_length="40" name="start_time" type="glide_date_time"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Visitor Name" mandatory="true" max_length="100" name="visitor_name" type="string"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" choice="1" default="not_requested" label="Approval State" max_length="40" name="approval_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Requested" sequence="1" value="requested"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Not Requested" sequence="0" value="not_requested"/>
+            </choice>
+        </element>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Check-Out Time" max_length="40" name="check_out_time" type="glide_date_time"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Company Name" max_length="100" name="company" type="string"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" default="javascript:global.getNextObjNumberPadded();" label="Request Number" max_length="40" name="number" type="string"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Visitor Photo" max_length="40" name="visitor_photo" type="user_image"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Email" mandatory="true" max_length="100" name="email" type="email"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Phone Number" max_length="20" name="phone" type="string"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Host" mandatory="true" max_length="32" name="host" reference="sys_user" type="reference"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" value="closed"/>
+                <element inactive_on_update="false" label="Approved" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" value="rejected"/>
+                <element inactive_on_update="false" label="Pending Branch Approval" value="pending_branch"/>
+                <element inactive_on_update="false" label="Checked In" value="checked_in"/>
+                <element inactive_on_update="false" label="Pass Generated" value="pass_generated"/>
+                <element inactive_on_update="false" label="Cancelled" value="cancelled"/>
+                <element inactive_on_update="false" label="Pending Facility Approval" value="pending_facility"/>
+                <element inactive_on_update="false" label="Checked Out" value="checked_out"/>
+            </choice>
+        </element>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Visit End Time" max_length="40" name="end_time" type="glide_date_time"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Pass Number" max_length="40" name="pass_number" type="string"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Check-In Time" max_length="40" name="check_in_time" type="glide_date_time"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Visit Date" mandatory="true" max_length="40" name="visit_date" type="glide_date"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Rejection Reason" max_length="4000" name="rejection_reason" type="string"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Pass Generated" max_length="40" name="pass_generated" type="boolean"/>
+        <element label="branch" max_length="32" name="branch" reference="x_1917769_servicen_branch" type="reference"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Facility" mandatory="true" max_length="32" name="facility" reference="x_1917769_servicen_facility" type="reference"/>
+        <element calculation="answer = (function calculatedFieldValue(current) { return ''; })(current);" label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="branch"/>
+        </index>
+        <index name="index2">
+            <element name="facility"/>
+        </index>
+        <index name="index3">
+            <element name="host"/>
+        </index>
+        <index name="index4">
+            <element name="requested_by"/>
+        </index>
+    </element>
+</database>

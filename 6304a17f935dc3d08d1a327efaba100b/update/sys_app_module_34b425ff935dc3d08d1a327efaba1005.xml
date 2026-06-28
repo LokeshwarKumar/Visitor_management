@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Servicenow_VisitorMgmt">e0b4657f935dc3d08d1a327efaba1018</application>
+        <application display_value="visitor management">60f49e959325cfd08d1a327efaba103f</application>
         <assessment/>
         <device_type/>
         <filter/>
@@ -13,7 +13,7 @@
         <mobile_title>Visitor Requests</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_1917769_servicen_visitor_request</name>
-        <order>3</order>
+        <order>2</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>34b425ff935dc3d08d1a327efaba1005</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Visitor Requests</sys_name>
         <sys_overrides/>
         <sys_package display_value="Visitor_management" source="x_1917769_servicen">6304a17f935dc3d08d1a327efaba100b</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Visitor_management">6304a17f935dc3d08d1a327efaba100b</sys_scope>
         <sys_update_name>sys_app_module_34b425ff935dc3d08d1a327efaba1005</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-12 15:27:57</sys_updated_on>
+        <sys_updated_on>2026-06-27 17:44:31</sys_updated_on>
         <timeline_page/>
         <title>Visitor Requests</title>
         <uncancelable>false</uncancelable>
